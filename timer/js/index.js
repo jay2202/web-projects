@@ -70,7 +70,7 @@ function stopwatch(){
 
 function start(){
     if(stopped==0){
-        interval=window.setInterval(stopwatch,100);
+        interval=window.setInterval(stopwatch,1000);
         document.getElementById('but').innerHTML="Pause";
         stopped=1;
     }else{

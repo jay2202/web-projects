@@ -1,0 +1,68 @@
+@mixin curveborder{
+    border-radius: 25px;
+    outline: none;
+}
+
+@mixin butt {
+        cursor: pointer;
+        color: blanchedalmond;
+        background-color: cadetblue;
+        border: none;
+        width: 8rem;
+        height: 2rem;
+}
+
+@mixin centre {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    color: #ffffff;
+}
+
+html,body,.front,#timer{
+    height: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+}
+
+.front{
+    height: 100%;
+    background-image: url(../images/form.jpg);
+    background-size: 100% 100%;
+}   
+
+.form{
+    position: relative;
+    top: 15rem;
+    @include centre;
+    input{
+        @include centre;
+        background: transparent;
+        width: 15rem;
+        height: 2rem;
+        @include curveborder;
+        border: 3px solid rgb(104, 238, 104);
+    }
+    #start{
+        @include butt;
+    }
+}
+
+#timer{
+    display: none;
+    padding: 5rem 0;
+    background-color: black;
+    color: #ffffff;
+    #title,#time{
+        @include centre;
+        font-size: 5rem;
+    }
+    button{
+        @include butt;
+        @include curveborder;
+        margin: 1rem;
+    }
+}

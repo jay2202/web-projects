@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    text-align: center;
+    line-height: 1.5;
+    font-family: 'PT Sans', sans-serif;
+}
+.welcome{
+    background-image: url(img/showcase.jpg);
+    color: white;
+    padding: 0%;
+    margin: 0;
+    border: none;
+    text-align: center;
+    width: auto;
+    height: 50rem;
+    background-size: 95rem 50rem;
+}
+a{
+    color: white;
+    margin-top: 0;
+}
+h1{
+    padding-top: 5rem;
+}
+.welcome-header{
+    background-color: #252529;
+    height: 2rem;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 0%;
+    padding-bottom: 0.8rem;
+    margin: 0;
+    border: none;
+    text-align: left;
+}  
+
+.Music{
+    padding: 0%;
+    margin: 0;
+    border: none;
+    background-color: #252529;
+    color: white;
+}
+.Music-img{
+    width: 900px;
+    
+}
+
+.Music-button{
+        background-color: red ; 
+        border: none;
+        color: white;
+        padding: 1rem;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        border-radius: 4px;
+        margin-bottom: 1.5rem;
+}
+
+.know-img{
+    width: 700px;
+    display: block;
+    margin: 0 auto;
+}
+
+.know-button{
+    background-color: red ; 
+    border: none;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.world{
+    background-image: url(img/section-bg.jpg);
+    color: white;
+    background-size: 99rem 24rem;
+}
+
+.cards{
+width: 90%;
+margin: 0 auto;
+text-align: left;
+}
+
+.cards-img{
+    float: left;
+    width: 50%;
+}
+
+.redeem{
+    color: black;
+}
+
+footer{
+    margin-top: 12rem;
+    background-color: #252529;
+    color: white;
+    display: block;
+}
+.container{
+    display: block;
+}
+.footer-cols{
+    display: inline-block;
+    color:  whitesmoke;
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.footer-bottom{
+    background-color: #333;
+    margin-top: 2rem;
+    height: 3rem;
+}
+
+.footer-hr{
+    width: 15rem;
+    align:left;
+}
+#menu li{
+    display: inline;
+    margin-right: 1rem;
+    padding: 1rem;
+}
+li{
+    margin-bottom: 0.5rem;
+}
+.text-center{
+    padding-top: 1rem;
+}
+
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.welcome-nav:hover{
+    border: 1px;
+    padding: 1rem;
+    border-radius: 3px;
+    background-color: #333;
+}
+
+#menu li:hover{
+    margin-right: 0rem;
+}

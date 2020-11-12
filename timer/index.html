@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/cf78ce8eff.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="scss/mainl.css">
+    
+    <title>Timer</title>
+</head>
+<body>
+    <div id="first" class="front">
+    <form class="form" action="#timer">
+        <input id="noOfExercise" placeholder="No Of Exercise" required>
+        <br>
+        <input type="text" id="timeOfEachExercise" placeholder="Time Of Each Exersice(in sec)" required>
+        <br>
+        <input type="text" id="timeBetweenTwoSet" placeholder="Time Between Two Set(in min)" required>
+        <br>
+        <input type="submit" id="start" value="Start">
+    </form>
+</div>
+<div id="timer">
+    <h1>Excercise:- <span id="exe">0</span></h1>
+    <h1>time:- <span id="tim">0</span> sec</h1>
+    <h1>rest:- <span id="rest">0</span> sec</h1>
+    <h1>interval:- <span id="interval">0</span> min</h1>
+    <h4 id="title">Ready to rock</h4>
+    <label id="time">00:00</label>
+    <button id="but" onclick="start()">Start</button>
+    <button onclick="reset()">Reset</button>
+</div>
+<script src="js/index.js"></script>
+</body>
+</html>

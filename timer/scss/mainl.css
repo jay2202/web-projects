@@ -1,0 +1,73 @@
+html, body, .front, #timer {
+  height: 100%;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+}
+
+.front {
+  height: 100%;
+  background-image: url(../images/form.jpg);
+  background-size: 100% 100%;
+}
+
+.form {
+  position: relative;
+  top: 15rem;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  color: #ffffff;
+}
+
+.form input {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  color: #ffffff;
+  background: transparent;
+  width: 15rem;
+  height: 2rem;
+  border-radius: 25px;
+  outline: none;
+  border: 3px solid #68ee68;
+}
+
+.form #start {
+  cursor: pointer;
+  color: blanchedalmond;
+  background-color: cadetblue;
+  border: none;
+  width: 8rem;
+  height: 2rem;
+}
+
+#timer {
+  display: none;
+  padding: 5rem 0;
+  background-color: black;
+  color: #ffffff;
+}
+
+#timer #title, #timer #time {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  color: #ffffff;
+  font-size: 5rem;
+}
+
+#timer button {
+  cursor: pointer;
+  color: blanchedalmond;
+  background-color: cadetblue;
+  border: none;
+  width: 8rem;
+  height: 2rem;
+  border-radius: 25px;
+  outline: none;
+  margin: 1rem;
+}
+/*# sourceMappingURL=mainl.css.map */
